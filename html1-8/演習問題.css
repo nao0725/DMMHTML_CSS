@@ -1,0 +1,73 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+/* text-align: center; */
+  width: 960;
+ padding: 50px auto;
+}
+
+
+.item-list {
+  margin-bottom: 50px;
+}
+
+.list:nth-child(odd){
+  background-color: #f7f7f7;
+}
+
+.list{
+  padding: 20px;
+  list-style: none;
+}
+
+.box{
+  background-color: #FFFF71;
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.box-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box:nth-child(5),
+.box:first-child,
+.box:last-child{
+  background-color: #F0592B;
+  /* width:30%;
+  height:200px;
+  padding:0 5%;
+  padding-bottom:40px; */
+}
+
+/* 兄弟要素の中で2つおきに
+   要素を選択 = 3ばいすう */
+.box:nth-child(3n){
+  margin-right: 0;
+  /* border: red solid 3px; */
+}
+
+/* 兄弟要素のグループの中で最後の3つの要素を表します。 */
+.box:nth-last-child(-n + 3){
+  margin-bottom:  0;
+  /* border: blue solid 3px; */
+}
+
+/* 
+.section{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+
+
+
