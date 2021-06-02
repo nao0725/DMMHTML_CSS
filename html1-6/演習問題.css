@@ -1,0 +1,39 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img1{
+  height: 200px;
+  width: 100%;
+  background-image: url(box1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img2{
+  height: 200px;
+  width: 100%;
+  background-image: url(box2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img3{
+  height: 200px;
+  width: 100%;
+  background-image: url(box3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img4{
+  height: 200px;
+  width: 100%;
+  background-image: url(box4.jpg);
+  background-position: center;
+  background-size: cover;
+}
