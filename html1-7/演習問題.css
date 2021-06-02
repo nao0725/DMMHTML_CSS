@@ -1,0 +1,58 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url(mv.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: #6E6E73;
+  height: 400px;
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.logo{
+  padding: 20px;
+}
+
+main{
+  /* text-align: center; */
+  width: 840px;
+  margin: 50px auto;
+}
+
+/* section{
+  padding: 50px 0 ;
+  text-align: left;
+  display: inline-block;
+  justify-content: start;
+} */
+
+.image1{
+  padding-bottom:30px ;
+  border-bottom: 1px solid #6E6E73;
+  margin-bottom: 30px;
+}
+
+.image2{
+  border-bottom:30px;
+  border-bottom: 1px solid #6E6E73;
+  margin-bottom: 30px;
+}
+
+.image3{
+  padding-bottom:30px;
+  border-bottom: 1px solid #6E6E73;
+  margin-bottom: 30px;
+}
+
+.image4{
+  padding-bottom:30px;
+  border-bottom: 1px solid #6E6E73;
+  margin-bottom: 30px;
+}
